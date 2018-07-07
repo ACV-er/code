@@ -1,2 +1,6 @@
 git_hug/
 *.swp
+*.o
+*.out
+*.class
+.*
