@@ -3,4 +3,5 @@ git_hug/
 *.o
 *.out
 *.class
-.*
+.gitignore
+.*/
