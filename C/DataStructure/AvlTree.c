@@ -7,12 +7,15 @@
 #define Min( a, b ) ( (a)<(b)?(a):(b) )
 
 void inorder_traversal(pAvlNode root) { //中序遍历
-  if( root == NULL) return;
-  inorder_traversal(root->left);
-   printf("%d ", root->data);
-  inorder_traversal(root->right);
+    if( root == NULL) return;
+    inorder_traversal(root->left);
+    printf("%d ", root->data);
+    if( ( Height( root->left ) - Height( root->right ) > 1 ) || ( Height( root->right ) - Height( root->left ) > 1 ) ) {
+        printf("error");
+    }
+    inorder_traversal(root->right);
 
-  return;
+    return;
 }
 
 int main(void){
@@ -21,17 +24,15 @@ int main(void){
     pAvlNode root = NULL;
     for(i=0; i<10; i++) {
         root = Insert( root, a[i] );
-        // printf("%d", root->data);
     }
-    // inorder_traversal(root);
-    // printf("\n");
+    inorder_traversal(root);
+    printf("\n");
 
     return 0;
 }
 
 pAvlNode Insert( pAvlNode root, int data ) {
     if( root == NULL ) {
-        printf("0");
         /*Create and return a one-node tree*/
         root = (pAvlNode)malloc( sizeof( AvlNode ) );
         if( root == NULL ) {
@@ -41,7 +42,6 @@ pAvlNode Insert( pAvlNode root, int data ) {
             root->left = root->right = NULL;
         }
     } else {
-        printf("1");
         if( data < root->data ) {
             root->left = Insert( root->left, data );
             if( Height( root->left ) - Height( root->right ) == 2 ) {
@@ -67,34 +67,34 @@ pAvlNode Insert( pAvlNode root, int data ) {
     return root;
 }
 
-void SingleRotateLeft( pAvlNode node ) {
-    node->right = CreatNode( node->data, node->left->right, node->right, Max( Height(node->left->right),  Height(node->right) ) + 1 );
-    pAvlNode tmp = node->left;
-    node->left = node->left->left;
-    node->data = node->left->data;
-    free( tmp );
+void SingleRotateLeft( pAvlNode node ) {//普通单旋转，使根节点变成它的右节点，并且使其的左节点为原本左节点的右节点，使左节点变成根节点，解决左节点左边突出
+    node->right = CreatNode( node->data, node->left->right, node->right, Max( Height(node->left->right),  Height(node->right) ) + 1 );//复制一个自己成为自己的右节点节
+    pAvlNode tmp = node->left;//存储它的左节点
+    node->data = node->left->data;//把它的左节点变为根节点
+    node->left = node->left->left;//维持原来的左节点本身的根节点
+    free( tmp );//既然左节点用复制的方式成为了根节点，那么真正的左节点删除即可
 
     return;
 }
 
 void SingleRotateRight( pAvlNode node ) {
     node->left = CreatNode( node->data, node->left, node->right->left, Max( Height(node->left),  Height(node->right->left) ) + 1 );
-    pAvlNode tmp = node->left;
-    node->right = node->right->right;
+    pAvlNode tmp = node->right;
     node->data = node->right->data;
+    node->right = node->right->right;
     free( tmp );
 
     return;
 }
 
-void DoubleRotateRight( pAvlNode node ) {
-    SingleRotateLeft( node->right );
-    SingleRotateRight( node );
+void DoubleRotateRight( pAvlNode node ) {//右双旋转
+    SingleRotateLeft( node->right ); //把右节点左边的突出移到右边
+    SingleRotateRight( node ); //当做正常的右节点右边突出
 
     return;
 }
 
-void DoubleRotateLeft( pAvlNode node ) {
+void DoubleRotateLeft( pAvlNode node ) { //解释对应右双旋转
     SingleRotateRight( node->left );
     SingleRotateLeft( node );
 
