@@ -16,10 +16,10 @@ pAvlNode FindMin( pAvlNode node );
 bool Retrieve(int data);
 
 pAvlNode CreatNode( int data, pAvlNode left, pAvlNode right, int height );
-pAvlNode SingleRotateLeft( pAvlNode node );
-pAvlNode SingleRotateRight( pAvlNode node );
-pAvlNode DoubleRotateLeft( pAvlNode node );
-pAvlNode DoubleRotateRight( pAvlNode node );
+void SingleRotateLeft( pAvlNode node );
+void SingleRotateRight( pAvlNode node );
+void DoubleRotateLeft( pAvlNode node );
+void DoubleRotateRight( pAvlNode node );
 int Height( pAvlNode node );
 
 #endif
