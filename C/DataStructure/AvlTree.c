@@ -6,6 +6,14 @@
 #define Max( a, b ) ( (a)>(b)?(a):(b) )
 #define Min( a, b ) ( (a)<(b)?(a):(b) )
 
+pAvlNode CreatNode( int data, pAvlNode left, pAvlNode right, int height );
+void SingleRotateLeft( pAvlNode node );
+void SingleRotateRight( pAvlNode node );
+void DoubleRotateLeft( pAvlNode node );
+void DoubleRotateRight( pAvlNode node );
+int Height( pAvlNode node );
+void ShowTree( pAvlNode root );
+
 struct WithFartherData{
     int fartherdata;
     pAvlNode self;
