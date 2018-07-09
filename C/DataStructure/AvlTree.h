@@ -10,7 +10,7 @@ typedef struct AvlNode{
 
 void MakeEmpty( AvlNode node );
 pAvlNode Insert( pAvlNode root, int data );
-bool Delete( pAvlNode root, int data );
+pAvlNode Delete( pAvlNode root, int data );
 pAvlNode FindMax( pAvlNode node );
 pAvlNode FindMin( pAvlNode node );
 bool Retrieve(int data);

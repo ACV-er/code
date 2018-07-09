@@ -33,6 +33,10 @@ int main(void){
     inorder_traversal(root);
     printf("\n");
     ShowTree(root);
+    printf("\n");
+    root = Delete(root, 93);
+    ShowTree(root);
+    printf("\n");
 
     return 0;
 }
@@ -70,6 +74,54 @@ pAvlNode Insert( pAvlNode root, int data ) {
     }
     root->height = Max( Height( root->left ), Height( root->right ) ) + 1;
 
+    return root;
+}
+
+pAvlNode Delete( pAvlNode root, int data ) { //删除与插入基本一致，左树删除与右树插入结果一致
+    if( root == NULL ) return false;
+    if( data < root->data ) {
+        root->left = Delete( root->left, data);
+        if( Height( root->right ) - Height( root->left ) == 2 ) {
+            if( data < root->right->data ) {
+                SingleRotateRight( root );
+            } else {
+                DoubleRotateRight( root );
+            }
+        }
+    } else if( data > root->data ){
+        root->right = Delete( root->right, data );
+        if( Height( root->left ) - Height( root->right ) == 2 ) {
+            if( data > root->left->data ) {
+                SingleRotateLeft( root );
+            } else {
+                DoubleRotateLeft( root) ;
+            }
+        }
+    } else {
+        if( root->left && root->right ) {
+            pAvlNode tmp = FindMin(root->right);
+            root->data = tmp->data; 
+            Delete( root->right, tmp->data );
+        } else if( root->left ) {
+            pAvlNode tmp = root->left;
+            root->data = tmp->data;
+            root->left = tmp->left;
+            root->right = tmp->right;
+            free( tmp );
+        } else if( root->right ) {
+            pAvlNode tmp = root->right;
+            root->data = tmp->data;
+            root->left = tmp->left;
+            root->right = tmp->right;
+            free( tmp );
+        } else {
+            free( root );
+            return NULL;
+        }
+    }
+
+    root->height = Max( Height( root->left ), Height( root->right ) ) + 1;
+    
     return root;
 }
 
