@@ -21,5 +21,6 @@ void SingleRotateRight( pAvlNode node );
 void DoubleRotateLeft( pAvlNode node );
 void DoubleRotateRight( pAvlNode node );
 int Height( pAvlNode node );
+void ShowTree( pAvlNode root );
 
 #endif

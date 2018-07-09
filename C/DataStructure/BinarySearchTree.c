@@ -8,6 +8,26 @@ typedef struct Node{
   struct Node * right;
 }Node, * pNode;
 
+void ShowTree( pNode root ) {
+    pNode queue[100];
+    int st, end;
+    st = end = 0;
+    queue[end++] = root;
+    while( st != end ) {
+        if( queue[st]->left != NULL ) {
+            queue[end++] = queue[st]->left;
+        }
+        if( queue[st]->right != NULL ) {
+            queue[end++] = queue[st]->right;
+        }
+        printf("%d ", queue[st++]->data);
+        if(end > 99) end = end%99;
+        if(st > 99) st = st%99;
+    }
+    
+    return;
+}
+
 int insert_search_tree(pNode * root, int data) { //返回值0成功，1为分配内存失败，2为元素已存在
   if(*root == NULL){ //如果该树为空则新建根节点
     *root = (pNode)malloc(sizeof(Node));
@@ -65,7 +85,7 @@ pNode find_min(pNode root) {
   return root;
 }
 
-bool delete_note(pNode * roots, int value) { //非递归写法 
+bool delete_note(pNode * roots, int value) { //非递归写法 //调用时需取地址
   pNode root = *roots;
   pNode father=root;
   while (root != NULL) {//查找待删除节点并保存父节点
@@ -86,7 +106,7 @@ bool delete_note(pNode * roots, int value) { //非递归写法
     pNode temp = find_min(root->right);
     root->data = temp->data;
     root = root->right;
-    return delete_note(root, temp);
+    return delete_note(roots, temp->data);
   }
   if( root == father ) {//这种情况删除根节点
     *roots = root->left!=NULL?root->left:root->right;
@@ -161,12 +181,13 @@ int main(void) {
   }
   inorder_traversal(root);
   printf("\n");
-  root = delete_note(root, -4);
+  delete_note(&root, -4);
   inorder_traversal(root);
   printf("\n");
-  root = delete_note(root, -100);
+  delete_note(&root, -100);
   inorder_traversal(root);
   printf("\n");
+  ShowTree(root);
 
   return 0;
 }

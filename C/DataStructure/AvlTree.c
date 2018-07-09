@@ -6,6 +6,11 @@
 #define Max( a, b ) ( (a)>(b)?(a):(b) )
 #define Min( a, b ) ( (a)<(b)?(a):(b) )
 
+struct WithFartherData{
+    int fartherdata;
+    pAvlNode self;
+};
+
 void inorder_traversal(pAvlNode root) { //中序遍历
     if( root == NULL) return;
     inorder_traversal(root->left);
@@ -27,6 +32,7 @@ int main(void){
     }
     inorder_traversal(root);
     printf("\n");
+    ShowTree(root);
 
     return 0;
 }
@@ -133,4 +139,32 @@ pAvlNode CreatNode( int data, pAvlNode left, pAvlNode right, int height ) {
     node->height = height;
 
     return node;
+}
+
+void ShowTree( pAvlNode root ) {
+    struct WithFartherData queue[100];
+    int st, end;
+    st = end = 0;
+    queue[end].fartherdata = 0;
+    queue[end++].self = root;
+    while( st != end ) {
+        if( queue[st].self->left != NULL ) {
+            queue[end].fartherdata = queue[st].self->data;
+            queue[end++].self = queue[st].self->left;
+        }
+        if( queue[st].self->right != NULL ) {
+            queue[end].fartherdata = queue[st].self->data;
+            queue[end++].self = queue[st].self->right;
+        }
+        if( queue[st].self->data < queue[st].fartherdata ) {
+            printf("%d(%d) ", queue[st].self->data, queue[st].fartherdata);
+        } else {
+            printf("(%d)%d ", queue[st].fartherdata, queue[st].self->data );
+        }
+        st++;
+        if(end > 99) end = end%99;
+        if(st > 99) st = st%99;
+    }
+    
+    return;
 }
