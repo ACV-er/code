@@ -65,78 +65,84 @@ pNode find_min(pNode root) {
   return root;
 }
 
-// bool delete_note(pNode * roots, int value) { //非递归写法
-//   pNode root = *roots;
-//   pNode father=root;
-//   while (root != NULL) {//查找待删除节点并保存父节点
-//     if(root->data == value) {
-//       break;
-//     } else if ( root->data < value ) {
-//       father = root;
-//       root = root->right;
-//     } else {
-//       father = root;
-//       root = root->left;
-//     }
-//   }
-//   if (root == NULL) return false;//没有找到该节点
-//
-//   if( root->left && root->right ) {
-//    //该节点左右子树均非空，则把右子树的最小值赋给该节点并且删除右子树最小节点，达到删除该节点目的,理论依据为二叉树性质，可自行理解
-//     pNode temp = find_min(root->right);
-//     root->data = temp->data;
-//     root = root->right;
-//     if( root == temp ) {
-//       root->right = NULL;
-//     } else {
-//       while( root->left != temp ) root = root->left;
-//     }
-//     free(temp);
-//     return true;
-//   }
-//   if( root == father ) {//这种情况删除根节点
-//     *roots = root->left!=NULL?root->left:root->right;
-//     free(root);
-//     return true;
-//   }
-//   //下面是普通操作，情况为只有左子树或者只有右子树
-//   if( root->left ) {
-//     (father->left == root)?(father->left = root->left):(father->right = root->left);
-//     free(root);
-//   } else if( root->right ) {
-//     (father->left == root)?(father->left = root->right):(father->right = root->right);
-//     free(root);
-//   } else {
-//     (father->left == root)?(father->left = NULL):(father->right = NULL);
-//     free(root);
-//   }
-//
-//   return true;
-// }
-
-pNode delete_note(pNode root, int value) { //递归写法
-  pNode temp = NULL;
-  if( root == NULL ) return NULL;
-  if( root->data > value ) {
-    root->left = delete_note( root->left, value ); //与上面循环的思想一样，如果下一个点被删除，那么他就指向下一个应该在此位置的点;
-  } else if ( root->data < value ) {
-    root->right = delete_note( root->right, value );
-  } else if( root->left && root->right ) {
-    temp = find_min( root->right );
-    root->data = temp->data;
-    root->right = delete_note( root->right, temp->data ); // 如果右节点为叶子，那么要使它的right等于NULL;
-  } else {
-    temp = root;
-    if( root->left == NULL ) {
-      root = root->right; //可能左右均为NULL此时赋值为NULL就可以了,这里和上面的配合，使返回的root返回它的父节点应该指向的位置
-    } else if( root->right == NULL ) {
+bool delete_note(pNode * roots, int value) { //非递归写法 
+  pNode root = *roots;
+  pNode father=root;
+  while (root != NULL) {//查找待删除节点并保存父节点
+    if(root->data == value) {
+      break;
+    } else if ( root->data < value ) {
+      father = root;
+      root = root->right;
+    } else {
+      father = root;
       root = root->left;
     }
-    free( temp );
+  }
+  if (root == NULL) return false;//没有找到该节点
+
+  if( root->left && root->right ) {
+   //该节点左右子树均非空，则把右子树的最小值赋给该节点并且删除右子树最小节点，达到删除该节点目的,理论依据为二叉树性质，可自行理解
+    pNode temp = find_min(root->right);
+    root->data = temp->data;
+    root = root->right;
+    return delete_note(root, temp);
+  }
+  if( root == father ) {//这种情况删除根节点
+    *roots = root->left!=NULL?root->left:root->right;
+    free(root);
+    return true;
+  }
+  //下面是普通操作，情况为只有左子树或者只有右子树
+  if( root->left ) {
+    pNode tmp = root->left;
+    root->data = root->left->data;
+    root->right = root->left->right;
+    root->left = root->left->left;
+    free(tmp);
+    // 下面是另一种写法
+    // (father->left == root)?(father->left = root->left):(father->right = root->left);
+    // free(root);
+  } else if( root->right ) {
+    pNode tmp = root->right;
+    root->data = root->right->data;
+    root->left = root->right->left;
+    root->right = root->right->right;
+    free(tmp);
+    // 下面是对应另一种写法
+    // (father->left == root)?(father->left = root->right):(father->right = root->right);
+    // free(root);
+  } else {
+    (father->left == root)?(father->left = NULL):(father->right = NULL);
+    free(root);
   }
 
-  return root;
+  return true;
 }
+
+// pNode delete_note(pNode root, int value) { //递归写法
+//   pNode temp = NULL;
+//   if( root == NULL ) return NULL;
+//   if( root->data > value ) {
+//     root->left = delete_note( root->left, value ); //与上面循环的思想一样，如果下一个点被删除，那么他就指向下一个应该在此位置的点;
+//   } else if ( root->data < value ) {
+//     root->right = delete_note( root->right, value );
+//   } else if( root->left && root->right ) {
+//     temp = find_min( root->right );
+//     root->data = temp->data;
+//     root->right = delete_note( root->right, temp->data ); // 如果右节点为叶子，那么要使它的right等于NULL;
+//   } else {
+//     temp = root;
+//     if( root->left == NULL ) {
+//       root = root->right; //可能左右均为NULL此时赋值为NULL就可以了,这里和上面的配合，使返回的root返回它的父节点应该指向的位置
+//     } else if( root->right == NULL ) {
+//       root = root->left;
+//     }
+//     free( temp );
+//   }
+
+//   return root;
+// }
 
 void inorder_traversal(pNode root) { //中序遍历
   if( root == NULL) return;
