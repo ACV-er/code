@@ -38,6 +38,28 @@ void sort(int * a, int len) {
 //	return;
 //}
 
+
+//二分查找
+int find(int * a, int target, int len) {
+    int middle=len/2;
+    if( len < 3 ){
+        if( a[0] == target ) {
+            return 0;
+        } else if(len == 2 && a[1] == target) {
+            return 1;
+        } else {
+            return - 1;
+        }
+    }
+    if( a[middle] > target) {
+        return find( a, target, middle );
+    } else if( a[middle] < target ) {
+        return middle+find( a+middle, target, len - middle );
+    } else {
+        return middle;
+    }
+}
+
 int main(void) {
 	int i, a[13] = {-100, 4, 6, -10, 9, 46, -4, 3, 6, 5, 8, 44, 20};
 	sort(a, 13);
