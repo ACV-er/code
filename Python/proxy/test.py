@@ -61,35 +61,6 @@ freeProxyUrl = "https://www.kuaidaili.com/free/intr/1"
 #     print("yes")
 # print( urllib.urlparse(freeProxyUrl) )
 
-# def run(lock, res = {}):
-#     lock.acquire()
-#     if 'all' not in res:
-#         print("有值前")
-#         res['all'] = { 'test' : 2 }
-#         print( res )
-#     else:
-#         print("有值后")
-#         temp = res['all']
-#         temp['test'] += 2
-#         res['all'] = temp
-#         print( res )
-#     lock.release()
-
-# manager = Manager()
-# s = manager.dict()
-# lock = Lock()
-# p = []
-# for i in range(3):
-#     p.append( Process(target = run, args=(lock, s) ) )
-# for i in range(3):
-#     p[i].start()
-# for i in range(3):
-#     p[i].join()
-# print("最终")
-# print( s )
-
-
-
 # s['ww'] = {}
 # s['ww']['all'] = 1
 # s['ww']['all'] += 1
@@ -98,6 +69,14 @@ freeProxyUrl = "https://www.kuaidaili.com/free/intr/1"
 
 # print( urllib.parse.urlparse(freeProxyUrl).netloc )
 
+# f = open("test.txt", "a+")
+# d = 123
+# x = { "all" : 0, "accept" : 0, "error" : 0 }
+# nowtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+# str1 = "%-10s%-30sall:%-10daccept:%-10serror:%-10s" % (nowtime, d, x["all"], x["accept"], x["error"])
+# # f.write("%10s\t %3d\t %6s\n"%("lwk", 56, 'female'))
+# # f.close()
+# print( str1 )
 
 # def run(num, fileLock):
 #     str1 = ""
@@ -120,11 +99,20 @@ freeProxyUrl = "https://www.kuaidaili.com/free/intr/1"
 #     for i in range(0,10):
 #         p[i].join()
 #     print('Child process end.')
-# f = open("test.txt", "a+")
-d = 123
-x = { "all" : 0, "accept" : 0, "error" : 0 }
-nowtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-str1 = "%-10s%-30sall:%-10daccept:%-10serror:%-10s" % (nowtime, d, x["all"], x["accept"], x["error"])
-# f.write("%10s\t %3d\t %6s\n"%("lwk", 56, 'female'))
-# f.close()
-print( str1 )
+
+def run(lock, res = []):
+    with lock:
+        s.append("15")
+
+manager = Manager()
+s = manager.list()
+lock = Lock()
+p = []
+for i in range(3):
+    p.append( Process(target = run, args=(lock, s) ) )
+for i in range(3):
+    p[i].start()
+for i in range(3):
+    p[i].join()
+print("最终")
+print( s )

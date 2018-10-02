@@ -9,6 +9,11 @@ import shutil
 import os
 import time
 from urllib import parse
+
+requests.adapters.DEFAULT_RETRIES = 5 # 增加重连次数
+s = requests.session()
+s.keep_alive = False # 关闭多余连接
+
 class Proxy:
     allProxy = [] #保存获取的代理，去重
     allUrl = [] #保存爬取过的网页，去重
@@ -58,7 +63,7 @@ class Proxy:
             f = open("log", "a+")
             print("信息写入log")
             for d,x in self.proxyInfo.items():
-                self.log( "%-30sall:%-10daccept:%-10serror:%s\n" % (d, x["all"], x["accept"], x["error"] ))
+                self.log( "%-30sall:%-10daccept:%-10serror:%s" % (d, x["all"], x["accept"], x["error"] ))
             f.close()
             print("完成！")
         #单独某个页面
@@ -93,13 +98,16 @@ class Proxy:
         count  = len(proxys)
         accept = 0
         error  = 0
-
+        head = {
+            'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+            'Referer': "https://www.baidu.com",
+            'Connection': 'close' #不需要保持链接
+        }
         #测试代理是否可用
         for proxy in proxys:
             try:
                 proxies = { "http": "http://" + proxy, "https": "https://" + proxy, }
-                baiduCheck = requests.get(baiduUrl, proxies=proxies, timeout = timeOut)
-
+                baiduCheck = requests.get(baiduUrl, proxies=proxies, timeout = timeOut, headers = head)
                 #判断教务系统及信息门户，意义不大，只判断一个即可
                 # xxmhCheck = requests.get(xxmhUrl, proxies=proxies, timeout = 2)
                 # if( (jwxtCheck.status_code == 200) and (xxmhCheck.status_code == 200) ):
@@ -113,6 +121,7 @@ class Proxy:
                     accept += 1
                 else:
                     error += 1
+                baiduCheck.close()
             except:
                 error += 1
         # print( "all: " + str(count) + " accept: " + str(accept) + " error: " + str(error) )
@@ -160,15 +169,16 @@ class Proxy:
 
             mod = re.compile(r"(\d{2,3}\.\d{2,3}\.\d+\.\d+)[\s\S]*?(?:>\s*?|:)(\d{2,6})")
             #简单防反爬
-            heard = {
+            head = {
                 'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
                 'Host': host,
-                'Referer': "https://www.baidu.com"
+                'Referer': "https://www.baidu.com",
+                'Connection': 'close' #不需要保持链接
             }
             print("获取网页信息")
             for i in range(10):
                 try:
-                    r = requests.get(freeProxyUrl, headers = heard, proxies = self.getProxy(), timeout = 10)
+                    r = requests.get(freeProxyUrl, headers = head, proxies = self.getProxy(), timeout = 10)
                     if( r.status_code == 200 ):
                         break
                     print("第%d次尝试失败" % (i+1))
@@ -272,32 +282,61 @@ class Proxy:
         f.write(proxy + "\n")
         f.close()
 
+    '''
+        该方法专供setProxy方法使用，加快运行速度
+
+    '''
+    def __simpleCheck(self, proxys=[], lock=Lock(), result=[]):
+        head = {
+            'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+            'Referer': "https://www.baidu.com",
+            'Connection': 'close'
+        }
+        for proxy in proxys:
+            try:
+                r = requests.get("https://www.baidu.com", proxies = proxy, timeout = 1, headers = head)
+                if r.text.find("www.baidu.com") != -1:
+                    with lock:
+                        result.append( proxy )
+                r.close()
+            except:
+                pass
+
     def setProxy(self):
         try:
             print("初始化代理")
             self.getFast("good")
             f = open("result/good", "r")
-            httpsProxy = []
-            accept = 0
+            proxies = []
             for line in f.readlines():
                 line = line[:-1]
-                proxies = {"http": "http://" + line, "https": "https://" + line,}
-                try:
-                    r = requests.get("https://www.baidu.com", proxies = proxies, timeout = 1)
-                    if r.text.find("www.baidu.com") != -1:
-                        httpsProxy.append(proxies)
-                        accept += 1
-                except:
-                    pass
+                proxies.append( {"http": "http://" + line, "https": "https://" + line,} )
             f.close()
+            manger = Manager()
+            result = manger.list()
+            lock = Lock()
+            p = []
+            num = begin = 0
+            end = len(proxies)
+            while begin != end:
+                if end-begin > 5:
+                    p.append( Process(target=self.__simpleCheck, args=(proxies[begin:begin+5], lock, result) ) )
+                    begin += 5
+                else:
+                    p.append( Process(target=self.__simpleCheck, args=(proxies[begin:end], lock, result) ) )
+                    begin = end
+                p[num].start()
+                num += 1
+            for i in p:
+                i.join()
             f = open("cache/proxy", "wb+")
-            pickle.dump(httpsProxy, f)
+            pickle.dump(result, f)
             f.close()
             print("初始化完毕")
             f = open("cache/proxyUpdataTime", "wb+")
             pickle.dump(time.time(), f)
             f.close()
-            self.log("Message:初始化代理成功%d个" % accept)
+            self.log("Message:初始化代理成功%d个" % len(result))
         except:
             self.log("Message:初始化代理失败，请检查目录下是否有result/accept文件")
 
@@ -309,6 +348,7 @@ class Proxy:
 
     def getFast(self, mode = "fast"):
         try:
+            os.remove("result/"+mode)
             MAX = 5
             f = open("result/accept", "r")
             proxys = []
@@ -343,9 +383,9 @@ class Proxy:
     def log(self, logMessage= ""):
         nowtime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         f = open("log", "a+")
-        f.write( "%-30s%s" % (nowtime,logMessage) )
+        f.write( "%-30s%s\n" % (nowtime,logMessage) )
         f.close()
 
-proxy = Proxy(False)
-proxy.setProxy()
- 
+if __name__ == "__main__":
+    proxy = Proxy(True)
+    proxy.setProxy()
