@@ -1,0 +1,1000 @@
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite CLO = Cloverite.
+3, 14, 22, 141, 759, 4328, 23313, 135669, 809809
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite CLO = Cloverite.
+3, 14, 23, 138, 762, 4442, 25102, 146540, 841648
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite CLO = Cloverite.
+3, 14, 23, 149, 836, 4910, 27546, 163814, 988916
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite DFO = DAF-1 [ Mg14Al52P66O264 ] . 7 R . 40 H2O.
+2, 7, 46, 214, 1065, 5699, 32616, 197650, 1263478
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite DFO = DAF-1 [ Mg14Al52P66O264 ] . 7 R . 40 H2O.
+2, 11, 47, 226, 1031, 5123, 29360, 184852, 1234090
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite DFO = DAF-1 [ Mg14Al52P66O264 ] . 7 R . 40 H2O.
+2, 12, 39, 219, 1008, 5155, 28936, 181946, 1205364
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite DFO = DAF-1 [ Mg14Al52P66O264 ] . 7 R . 40 H2O.
+3, 13, 37, 200, 960, 5234, 29645, 181949, 1177256
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite DFO = DAF-1 [ Mg14Al52P66O264 ] . 7 R . 40 H2O.
+3, 13, 43, 208, 956, 4847, 26763, 164223, 1086338
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite DFO = DAF-1 [ Mg14Al52P66O264 ] . 7 R . 40 H2O.
+3, 15, 35, 220, 1061, 5229, 27996, 169400, 1119573
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EAB = TMA-E (Aiello and Barrer)(1) (Me4N)2Na7[ Al9Si27O7.
+2, 4, 24, 156, 1000, 5643, 34982, 233545, 1547406
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EAB = TMA-E (Aiello and Barrer)(1) (Me4N)2Na7[ Al9Si27O7.
+3, 7, 44, 197, 939, 5008, 31709, 215050, 1428402
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EDI = Edingtonite Ba2 [ Al4Si6O20 ] . 8 H2O.
+4, 2, 14, 160, 900, 4886, 30682, 192510, 1224950
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EDI = Edingtonite Ba2 [ Al4Si6O20 ] . 8 H2O.
+4, 4, 16, 160, 852, 4732, 30184, 189504, 1205100
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ERI = Erionite (Na2,Ca..)3.5 K2 [ Al9Si27O72 ] . 27 H2O.
+2, 5, 26, 182, 1122, 6132, 35768, 222992, 1437244
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ERI = Erionite (Na2,Ca..)3.5 K2 [ Al9Si27O72 ] . 27 H2O.
+3, 8, 49, 259, 1478, 7448, 38788, 219569, 1333733
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite FAU = Faujasite (Na2,Ca,Mg)29 [ Al58Si134O384 ] . 240 H2O.
+3, 8, 46, 225, 1196, 7203, 44392, 251808, 1370580
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite GIS = Cycle class sequences of Gismondine Ca4 [ Al8Si8O32 ] . 16 H2O.
+3, 6, 20, 120, 942, 6090, 35264, 211482, 1379880
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite GME = Gmelinite (Na2,Ca)4 [ Al8Si16O48 ] . 24 H2O.
+3, 7, 42, 190, 884, 5565, 34840, 205806, 1247875
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite GOO = Goosecreekite Ca2 [ Al4Si12O32 ] . 10 H2O.
+2, 4, 26, 134, 958, 6034, 37650, 242504, 1590952
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for a certain zeolite [ which? ].
+2, 6, 36, 150, 938, 5968, 36762, 235074, 1553854
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for 3 6 26 136 925 5672 35526 228565 1500561.
+3, 7, 30, 140, 908, 5586, 35137, 226799, 1489781
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite JBW = NaJ (Barrer and White) Na3 [ Al3Si3O12 ]. 1.5 H2O.
+0, 8, 36, 176, 1188, 6918, 45810, 298152, 2005828
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite JBW = NaJ (Barrer and White) Na3 [ Al3Si3O12 ]. 1.5 H2O.
+2, 8, 34, 162, 1080, 6383, 41775, 273618, 1839706
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite KFI = ZK-5 Na30 [ Al30Si66O192 ] . 98 H2O.
+3, 7, 40, 185, 823, 4508, 30268, 201255, 1311400
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LEV = Levyne Ca9 [ Al18Si36O108 ] . 50 H2O.
+2, 4, 22, 154, 924, 5744, 37530, 241091, 1545066
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LEV = Levyne Ca9 [ Al18Si36O108 ] . 50 H2O.
+3, 7, 43, 198, 926, 5199, 33723, 219611, 1410817
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LIO = Liottite (Ca,Na2,K2)9 [ Al18Si18O72 ].
+2, 5, 30, 178, 1012, 6383, 40012, 260515, 1732626
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LIO = Liottite (Ca,Na2,K2)9 [ Al18Si18O72 ].
+2, 6, 33, 203, 1050, 6300, 39142, 255212, 1698526
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LIO = Liottite (Ca,Na2,K2)9 [ Al18Si18O72 ].
+2, 6, 34, 221, 1100, 6711, 40137, 256224, 1690933
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LIO = Liottite (Ca,Na2,K2)9 [ Al18Si18O72 ].
+2, 7, 36, 234, 1096, 6515, 39238, 253162, 1671696
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LOS = Losod Na12 [ Al12Si12O48 ] . 18 H2O.
+2, 5, 30, 180, 1028, 6563, 41042, 262143, 1737014
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LOS = Losod Na12 [ Al12Si12O48 ] . 18 H2O.
+2, 6, 34, 225, 1108, 6814, 40830, 258390, 1704706
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LTA = Linde Type A.
+3, 14, 23, 150, 922, 5712, 32636, 186900, 1119450
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LTL = Linde Type L K6Na3[ Al9Si27O72 ] . 21 H2O.
+2, 4, 26, 206, 1311, 7442, 44452, 281652, 1791706
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LTL = Linde Type L K6Na3[ Al9Si27O72 ] . 21 H2O.
+3, 8, 51, 277, 1632, 8767, 48266, 286128, 1759297
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LTN = Linde Type N Na384[ Al384Si384O1536 ] . 518 H2O.
+2, 5, 32, 187, 986, 5820, 37028, 243443, 1619559
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LTN = Linde Type N Na384[ Al384Si384O1536 ] . 518 H2O.
+2, 5, 33, 186, 1107, 6553, 40507, 264109, 1743285
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LTN = Linde Type N Na384[ Al384Si384O1536 ] . 518 H2O.
+2, 5, 33, 204, 1197, 6819, 42159, 275121, 1815549
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite LTN = Linde Type N Na384[ Al384Si384O1536 ] . 518 H2O.
+3, 7, 48, 193, 860, 5049, 32054, 213003, 1418642
+
+
+Expansion of 1/((1-4x)(1-5x)(1-11x)).
+1, 20, 281, 3460, 40161, 453300, 5048041, 55853540, 616079921, 6785596180, 74686191801, 821775473220, 9040683799681, 99453356876660, 1094016369479561, 12034328357198500, 132378357688767441
+
+
+Expansion of 1/((1-4x)(1-5x)(1-12x)).
+1, 21, 313, 4125, 51601, 630741, 7630633, 91892685, 1104403201, 13261555461, 159183299353, 1910426955645, 22926277062001, 275121159824181, 3301483361726473, 39617948633641005, 475416129363276001
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite MER = Merlinoite K5Ca2[ Al9Si23O64 ] . 24 H2O.
+3, 6, 20, 140, 966, 5390, 32776, 218196, 1427470
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite OFF = Offretite (Ca,Mg)1.5K[ Al4Si14O36 ] . 14 H2O.
+2, 5, 28, 188, 1210, 6300, 35180, 219598, 1414836
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite OFF = Offretite (Ca,Mg)1.5K[ Al4Si14O36 ] . 14 H2O.
+3, 8, 50, 261, 1500, 7448, 38286, 217801, 1323607
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAR = Partheite Ca8[ Al16Si16O60(OH)8 ] . 16 H2O.
+1, 5, 15, 61, 286, 1424, 7603, 42033, 242336
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAR = Partheite Ca8[ Al16Si16O60(OH)8 ] . 16 H2O.
+1, 5, 18, 83, 380, 2037, 11099, 62899, 365398
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAR = Partheite Ca8[ Al16Si16O60(OH)8 ] . 16 H2O.
+2, 5, 26, 97, 456, 2366, 12705, 70044, 403306
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAR = Partheite Ca8[ Al16Si16O60(OH)8 ] . 16 H2O.
+2, 6, 25, 94, 444, 2265, 12105, 66539, 383450
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 6, 20, 126, 949, 5882, 34579, 218024, 1424091
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 6, 20, 132, 938, 5733, 34331, 217843, 1415657
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 6, 20, 135, 938, 5726, 33918, 214711, 1405611
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 6, 20, 142, 980, 5664, 34103, 222723, 1457520
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 6, 21, 142, 913, 5515, 33531, 214022, 1397796
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 6, 21, 159, 1002, 5426, 32678, 213283, 1389400
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 7, 24, 128, 787, 5138, 33006, 213263, 1389812
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PAU = Paulingite (K2,Ca,Na2)76[ Al152Si520O1344 ].
+3, 7, 25, 150, 903, 5156, 31334, 203031, 1336702
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PHI = Phillipsite K2(Ca,Na2)2[ Al6Si10O32 ] . 12 H2O.
+3, 6, 20, 128, 918, 5880, 35034, 214132, 1386698
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite PHI = Phillipsite K2(Ca,Na2)2[ Al6Si10O32 ] . 12 H2O.
+3, 6, 20, 132, 918, 5768, 34790, 215312, 1391722
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite RHO = Rho (Na,Cs)12[ Al12Si36O96 ] . 44 H2O.
+3, 7, 26, 175, 1045, 5628, 31996, 196737, 1293700
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite SOD = Sodalite Na6[ Al6Si6O24 ] . 2 NaCl.
+2, 4, 32, 180, 1152, 6636, 40384, 266964, 1800360
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite THO = Thomsonite Na4Ca8[ Al20Si20O80 ] . 24 H2O.
+4, 2, 14, 160, 900, 4886, 30682, 192510, 1224950
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite THO = Thomsonite Na4Ca8[ Al20Si20O80 ] . 24 H2O.
+4, 4, 16, 160, 852, 4732, 30184, 189504, 1205100
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite VFI = VPI-5 [ Al18P18O72 ]. 42 H2O.
+1, 14, 39, 294, 1379, 8928, 51388, 324812, 2004773
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite VFI = VPI-5 [ Al18P18O72 ] . 42 H2O.
+2, 16, 34, 267, 1218, 8261, 48408, 309593, 1917294
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ZON = ZAPO-M1 R8 [ Zn8Al24P32O128 ].
+2, 9, 27, 132, 891, 5442, 35353, 225590, 1461709
+
+
+Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ZON = ZAPO-M1 R8 [ Zn8Al24P32O128 ].
+2, 9, 40, 166, 985, 5734, 35301, 222490, 1433731
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 0, 4, 5, 6, 31, 64, 139, 378, 744, 1698, 4181, 8772, 20390, 48362, 110784, 267832
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 0, 5, 4, 12, 34, 54, 152, 360, 669, 1661, 3856, 8167, 19462, 45722, 105386, 255448
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 0, 6, 3, 18, 37, 44, 165, 342, 578, 1622, 3591, 7598, 18418, 43630, 100052, 244142
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 1, 5, 6, 15, 38, 65, 172, 387, 704, 1762, 3996, 8251, 19330, 44516, 100594, 240394
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 1, 5, 6, 15, 46, 58, 173, 400, 679, 1753, 3961, 8024, 19014, 43844, 98371, 235868
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 2, 2, 4, 14, 30, 46, 141, 313, 642, 1586, 3566, 7827, 18673, 43608, 101775, 248214
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 2, 2, 4, 14, 30, 46, 141, 321, 648, 1577, 3589, 7833, 18573, 43299, 100786, 244719
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 2, 3, 4, 22, 26, 41, 157, 269, 602, 1505, 3338, 7358, 17635, 41165, 96574, 235239
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BEA = Beta Nan [ AlnSi64-n O128 ] with n 7.
+0, 2, 3, 4, 22, 26, 41, 157, 285, 585, 1535, 3327, 7310, 17637, 40707, 95444, 232524
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BIK = Bikitaite Li2 [ Al2Si4O12 ] . 2 H2O.
+0, 0, 2, 6, 6, 16, 34, 92, 256, 576, 1374, 3594, 9776, 24120, 60318, 158240, 417258
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BIK = Bikitaite Li2 [ Al2Si4O12 ] . 2 H2O.
+0, 0, 4, 6, 4, 16, 46, 84, 224, 558, 1380, 3418, 9272, 23340, 58462, 153503, 404026
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BOG = Boggsite Na4Ca7 [ Al18Si78O192 ] . 74 H2O.
+0, 1, 2, 9, 7, 25, 43, 150, 237, 595, 1421, 3272, 7538, 18461, 44085, 112468, 278414
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BOG = Boggsite Na4Ca7 [ Al18Si78O192 ]. 74 H2O.
+0, 1, 3, 6, 13, 21, 51, 135, 249, 543, 1328, 2956, 7043, 17203, 41428, 107072, 267949
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BOG = Boggsite Na4Ca7 [ Al18Si78O192 ] . 74 H2O.
+0, 1, 3, 9, 11, 25, 49, 149, 266, 587, 1428, 3157, 7314, 17592, 41512, 106222, 261835
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BOG = Boggsite Na4Ca7 [ Al18Si78O192 ] . 74 H2O.
+0, 1, 4, 4, 13, 26, 45, 133, 235, 548, 1310, 2895, 6935, 16903, 41364, 105473, 267593
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BOG = Boggsite Na4Ca7 [ Al18Si78O192 ] . 74 H2O.
+0, 2, 1, 6, 6, 23, 36, 119, 227, 589, 1359, 3188, 7670, 18602, 44166, 112968, 277559
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BOG = Boggsite Na4Ca7 [ Al18Si78O192 ] . 74 H2O.
+0, 2, 2, 5, 13, 20, 46, 114, 260, 540, 1331, 2991, 7330, 17379, 42207, 107163, 267844
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BRE = Brewsterite (Sr,Ba)2 [ Al4Si12O32 ] . 10 H2O.
+0, 1, 2, 5, 7, 17, 21, 85, 153, 536, 1069, 3197, 7115, 20308, 46964, 129045, 310597, 836871
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BRE = Brewsterite (Sr,Ba)2 [ Al4Si12O32 ] . 10 H2O.
+0, 1, 4, 4, 12, 21, 36, 81, 215, 498, 1230, 3024, 7518, 18716, 47494, 119818, 305638
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BRE = Brewsterite (Sr,Ba)2 [ Al4Si12O32 ] . 10 H2O.
+0, 2, 2, 5, 8, 25, 29, 98, 189, 554, 1136, 3243, 7008, 19592, 45249, 122606, 294165, 792112
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite BRE = Brewsterite (Sr,Ba)2 [ Al4Si12O32 ] . 10 H2O.
+0, 2, 2, 7, 8, 21, 31, 91, 180, 554, 1089, 3213, 6964, 19472, 44811, 121353, 291654, 784152
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CAS = Cesium Aluminosilicate (Araki) Cs4[ Al4Si20O48 ].
+0, 0, 2, 6, 4, 20, 34, 96, 234, 626, 1326, 3616, 9468, 24157, 59150, 158218, 412230
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CAS = Cesium Aluminosilicate (Araki) Cs4[ Al4Si20O48 ].
+0, 0, 4, 6, 4, 24, 46, 100, 224, 626, 1332, 3558, 9054, 23406, 56916, 153209, 395282
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CAS = Cesium Aluminosilicate (Araki) Cs4[ Al4Si20O48 ].
+0, 0, 4, 6, 6, 20, 46, 94, 246, 596, 1372, 3452, 9378, 23093, 57776, 151623, 399786
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CHI = Chiavennite Ca4Mn4 [ Be8Si20O52(OH)8 ] . 8 H2O.
+0, 1, 0, 10, 0, 15, 9, 93, 62, 404, 410, 2010, 2518, 10448, 14529, 53021, 85015, 284207
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CHI = Chiavennite Ca4Mn4 [ Be8Si20O52(OH)8 ] . 8 H2O.
+0, 1, 1, 0, 3, 0, 7, 4, 42, 63, 245, 469, 1392, 2850, 7536, 15797, 41646, 90054
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CHI = Chiavennite Ca4Mn4 [ Be8Si20O52(OH)8 ] . 8 H2O.
+0, 1, 1, 5, 2, 9, 7, 51, 54, 269, 383, 1360, 2299, 7403, 12992, 38816, 73818, 211988
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CHI = Chiavennite Ca4Mn4 [ Be8Si20O52(OH)8 ] . 8 H2O.
+0, 2, 1, 0, 4, 0, 8, 4, 47, 76, 277, 596, 1637, 3606, 8987, 19704, 50026, 110922
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+0, 1, 2, 6, 10, 30, 42, 126, 308, 688, 1436, 3536, 7261, 18323, 42046, 104611, 256824
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+0, 1, 3, 5, 16, 25, 51, 122, 305, 616, 1413, 3192, 7055, 16930, 40856, 98582, 249604
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+0, 1, 3, 6, 19, 33, 55, 143, 373, 625, 1591, 3352, 7394, 17417, 40868, 94739, 242601
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+0, 2, 1, 5, 9, 28, 35, 132, 283, 638, 1401, 3474, 7299, 18210, 41961, 103620, 257565
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+0, 2, 2, 5, 18, 20, 34, 148, 243, 673, 1248, 3321, 6864, 17337, 39632, 99576, 243766
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+0, 2, 2, 6, 13, 29, 45, 138, 272, 700, 1377, 3283, 6855, 17080, 38581, 97724, 236340
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+0, 2, 2, 6, 13, 29, 53, 131, 284, 698, 1349, 3278, 6697, 16939, 38375, 97676, 236182
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DAC = Dachiardite Na5[ Al5Si19O48 ] . 12 H2O.
+0, 0, 5, 4, 3, 23, 41, 82, 240, 498, 1273, 3394, 7906, 20304, 53439, 134336, 347586, 909168
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DAC = Dachiardite Na5[ Al5Si19O48 ] . 12 H2O.
+0, 0, 6, 6, 5, 27, 48, 90, 240, 509, 1258, 3279, 7694, 19611, 51180, 128869, 332925, 869682
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DAC = Dachiardite Na5[ Al5Si19O48 ] . 12 H2O.
+0, 1, 4, 2, 6, 24, 26, 88, 244, 438, 1296, 3420, 7602, 20290, 53200, 131606, 343613, 897170
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DAC = Dachiardite Na5[ Al5Si19O48 ] . 12 H2O.
+0, 1, 4, 2, 6, 28, 30, 88, 248, 452, 1286, 3380, 7608, 20248, 52742, 130672, 341551, 890490
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DDR = Deca-dodecasil 3R [ Si120O240 ]q R.
+0, 0, 5, 0, 2, 33, 23, 73, 339, 501, 1272, 4159, 8796, 21947, 60807, 146525, 370649, 977008
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DDR = Deca-dodecasil 3R [ Si120O240 ]q R.
+0, 0, 5, 1, 0, 34, 33, 70, 340, 555, 1267, 4177, 9172, 22268, 61267, 148816, 373087, 979481
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DDR = Deca-dodecasil 3R [ Si120O240 ]q R.
+0, 0, 6, 0, 3, 39, 27, 87, 402, 546, 1332, 4503, 9141, 22260, 62355, 147339, 366447, 965064
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DDR = Deca-dodecasil 3R [ Si120O240 ]q R.
+0, 0, 6, 0, 3, 51, 42, 117, 453, 615, 1509, 4665, 9159, 22542, 61659, 143013, 359028
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DDR = Deca-dodecasil 3R [ Si120O240 ]q R.
+0, 0, 6, 0, 5, 40, 38, 109, 382, 608, 1500, 4292, 9039, 22477, 59362, 141933, 360498
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DDR = Deca-dodecasil 3R [ Si120O240 ]q R.
+0, 1, 4, 0, 7, 27, 33, 104, 302, 557, 1436, 3780, 8483, 21634, 55744, 137371, 354163
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DDR = Deca-dodecasil 3R [ Si120O240 ]q R.
+0, 2, 2, 1, 12, 21, 48, 137, 250, 605, 1554, 3342, 8332, 21594, 51502, 131328, 341762
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DOH = Dodecasil 1H [ Si34O68 ] . q R.
+0, 0, 5, 1, 0, 30, 38, 64, 292, 580, 1226, 3708, 9212, 22012, 58668, 152984, 385024, 999368
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DOH = Dodecasil 1H [ Si34O68 ] . q R.
+0, 0, 5, 1, 2, 32, 39, 85, 333, 595, 1284, 3951, 9281, 22166, 60247, 152990, 381931, 999142
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DOH = Dodecasil 1H [ Si34O68 ] . q R.
+0, 0, 6, 0, 3, 39, 39, 105, 378, 594, 1344, 4092, 9150, 22374, 60696, 150426, 377184
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite DOH = Dodecasil 1H [ Si34O68 ] . q R.
+0, 1, 3, 2, 4, 24, 40, 93, 297, 575, 1321, 3793, 9023, 22074, 59286, 150414, 378079, 988794
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EPI = Epistilbite Ca3 [ Al6Si18O48 ] . 16 H2O.
+0, 0, 5, 4, 4, 24, 44, 86, 230, 499, 1216, 3329, 8059, 20320, 54177, 138028, 352138, 917367
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EPI = Epistilbite Ca3 [ Al6Si18O48 ] . 16 H2O.
+0, 0, 6, 6, 4, 24, 45, 74, 210, 475, 1111, 3151, 7825, 19538, 52439, 134817, 343283, 893705
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EPI = Epistilbite Ca3 [ Al6Si18O48 ] . 16 H2O.
+0, 1, 4, 2, 6, 24, 28, 70, 220, 418, 1079, 3229, 7816, 20030, 54017, 137231, 351289, 913028
+
+
+Cycle class sequence c(n) (number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 0, 3, 4, 6, 25, 50, 85, 253, 715, 1470, 3595, 9883, 23931, 58627, 154107, 394496
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 0, 3, 6, 7, 28, 53, 106, 273, 741, 1593, 3737, 10000, 24476, 59099, 153277, 391122
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 0, 4, 4, 8, 30, 50, 99, 270, 665, 1390, 3282, 8729, 20828, 50354, 132935, 340395, 867459
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 0, 4, 6, 4, 30, 65, 104, 277, 756, 1542, 3615, 9759, 23306, 55566, 145499, 370660
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 0, 5, 4, 6, 30, 62, 104, 277, 731, 1522, 3561, 9588, 22716, 54535, 143207, 364357
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 0, 5, 6, 9, 35, 59, 112, 283, 706, 1478, 3397, 8871, 21251, 50341, 130710, 332916
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 0, 6, 6, 4, 29, 62, 96, 260, 727, 1433, 3356, 9050, 21140, 49236, 128957, 326370, 811629
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 1, 4, 0, 10, 32, 42, 84, 258, 581, 1186, 3035, 7988, 18756, 47742, 127617, 326076
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 1, 4, 1, 10, 28, 48, 81, 254, 633, 1294, 3294, 8814, 20833, 52532, 138633, 352768
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+0, 1, 5, 4, 7, 28, 56, 88, 273, 704, 1404, 3306, 8909, 20480, 48398, 127006, 319884, 798692
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite FER = Ferrierite Na2Mg2[ Al6Si30O72 ] . 18 H2O.
+0, 0, 4, 3, 2, 26, 38, 62, 242, 558, 1202, 3340, 8696, 21250, 54336, 141989, 363816, 934293
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite FER = Ferrierite Na2Mg2[ Al6Si30O72 ] . 18 H2O.
+0, 0, 6, 5, 4, 30, 54, 94, 276, 596, 1366, 3584, 8576, 21201, 54406, 136804, 348928, 899188
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite FER = Ferrierite Na2Mg2[ Al6Si30O72 ] . 18 H2O.
+0, 0, 6, 5, 4, 32, 50, 84, 266, 604, 1342, 3456, 8652, 21422, 53630, 136442, 349820, 893522
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite FER = Ferrierite Na2Mg2[ Al6Si30O72 ] . 18 H2O.
+0, 0, 6, 6, 3, 28, 54, 86, 263, 604, 1338, 3528, 8671, 21107, 53984, 137416, 348568, 895984
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite HEU = Heulandite Ca4 [ Al8Si28O72 ] . 24 H2O.
+0, 0, 6, 0, 16, 26, 26, 118, 264, 426, 1428, 3070, 7568, 19538, 48146, 119503, 311736
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite HEU = Heulandite Ca4 [ Al8Si28O72 ] . 24 H2O.
+0, 1, 2, 5, 9, 18, 19, 83, 169, 450, 1125, 2944, 7247, 19186, 47324, 122937, 310406, 802867
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite HEU = Heulandite Ca4 [ Al8Si28O72 ] . 24 H2O.
+0, 1, 4, 3, 13, 26, 23, 119, 235, 452, 1323, 3119, 7328, 19372, 46983, 119070, 303686
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite HEU = Heulandite Ca4 [ Al8Si28O72 ] . 24 H2O.
+0, 2, 3, 4, 14, 22, 27, 111, 203, 459, 1247, 2908, 7150, 18683, 45204, 115959, 294132
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite HEU = Heulandite Ca4 [ Al8Si28O72 ] . 24 H2O.
+0, 2, 3, 6, 12, 23, 26, 108, 196, 457, 1194, 2941, 6996, 18466, 44700, 115222, 290209
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite LOV = Lovdarite K4Na12 [ Be8Si28O72 ] . 18 H2O.
+0, 2, 0, 4, 0, 18, 18, 100, 190, 566, 1044, 2906, 6052, 16554, 38714, 105048, 256738
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite LOV = Lovdarite K4Na12 [ Be8Si28O72 ] . 18 H2O.
+1, 1, 0, 2, 0, 10, 20, 100, 210, 530, 974, 2548, 5654, 15378, 37662, 100702, 248970, 648082
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite LOV = Lovdarite K4Na12 [ Be8Si28O72 ] . 18 H2O.
+2, 0, 0, 0, 0, 0, 28, 80, 248, 392, 1028, 2068, 5856, 13680, 38100, 92984, 245540, 603684
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MAZ = Mazzite (Na2,K2,Ca,Mg)5 [ Al10Si26O72 ] . 28 H2O.
+0, 2, 1, 4, 6, 16, 25, 104, 144, 666, 1078, 3264, 7969, 18762, 48833, 124845, 310324, 813758
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MAZ = Mazzite (Na2,K2,Ca,Mg)5 [ Al10Si26O72 ] . 28 H2O.
+0, 2, 2, 3, 11, 12, 37, 98, 148, 567, 1047, 2743, 7378, 16767, 45292, 115389, 292991
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEI = ZSM-18 Nan [ AlnSi34-nO68 ] . 28 H2O (n=2.1-5.7).
+0, 2, 2, 7, 13, 25, 42, 81, 193, 454, 1041, 2502, 6242, 13807, 35326, 87295, 209812, 548575
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEI = ZSM-18 Nan [ AlnSi34-nO68 ] . 28 H2O (n=2.1-5.7).
+0, 3, 0, 6, 12, 18, 42, 69, 213, 522, 1290, 3021, 7515, 16005, 39396, 96558, 216372, 569388
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEI = ZSM-18 Nan [ AlnSi34-nO68 ] . 28 H2O (n=2.1-5.7).
+0, 3, 1, 8, 11, 25, 38, 77, 180, 434, 1022, 2460, 6163, 13595, 34346, 85405, 201291, 534842
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEI = ZSM-18 Nan [ AlnSi34-nO68 ] . 28 H2O (n=2.1-5.7).
+1, 0, 4, 6, 21, 32, 46, 88, 190, 468, 1046, 2370, 6015, 12766, 33972, 81676, 202255, 504674
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEL = ZSM-11 Nan[ AlnSi96-nO192 ].
+0, 0, 4, 5, 9, 26, 47, 120, 309, 612, 1449, 3708, 8653, 20721, 53261, 133949, 333428
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEL = ZSM-11 Nan[ AlnSi96-nO192 ].
+0, 0, 5, 6, 8, 31, 61, 109, 296, 662, 1373, 3449, 8480, 19744, 50059, 128154, 319759
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEL = ZSM-11 Nan[ AlnSi96-nO192 ].
+0, 0, 6, 3, 4, 35, 50, 99, 288, 577, 1294, 3339, 7978, 19442, 50356, 128323, 324072, 846735
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEL = ZSM-11 Nan[ AlnSi96-nO192 ].
+0, 0, 6, 3, 5, 34, 51, 102, 289, 587, 1318, 3334, 8009, 19403, 49885, 127398, 321568
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEL = ZSM-11 Nan[ AlnSi96-nO192 ].
+0, 1, 2, 5, 4, 19, 52, 85, 238, 656, 1316, 3367, 9016, 20242, 51510, 137243, 337400, 869277
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEL = ZSM-11 Nan[ AlnSi96-nO192 ].
+0, 1, 3, 3, 10, 27, 46, 111, 279, 588, 1368, 3412, 8210, 20198, 51439, 129724, 328440
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEL = ZSM-11 Nan[ AlnSi96-nO192 ].
+0, 1, 3, 3, 13, 30, 41, 136, 335, 566, 1559, 3919, 8386, 21334, 54333, 129669, 327306
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEP = Melanophlogite [ Si46O92 ] . q R.
+0, 0, 4, 2, 0, 28, 44, 44, 296, 732, 1124, 3644, 10508, 21864, 58260, 166444, 403156
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEP = Melanophlogite [ Si46O92 ] . q R.
+0, 0, 5, 1, 0, 35, 38, 49, 344, 667, 1066, 3893, 10039, 20890, 58933, 162476, 391216
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MEP = Melanophlogite [ Si46O92 ] . q R.
+0, 0, 6, 0, 0, 39, 30, 45, 363, 612, 1041, 4071, 9711, 20430, 59787, 159786, 383781
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 3, 7, 3, 18, 59, 101, 262, 700, 1562, 3662, 9304, 22659, 54871, 139034, 355891
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 4, 4, 7, 30, 50, 105, 308, 634, 1376, 3553, 8630, 20869, 52340, 133033, 342799
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 4, 6, 8, 24, 55, 122, 284, 640, 1499, 3523, 8555, 21207, 52142, 131769, 340170
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 4, 6, 8, 30, 59, 110, 307, 702, 1467, 3540, 8881, 21238, 51411, 131267, 336955
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 5, 5, 5, 28, 54, 102, 287, 630, 1409, 3506, 8420, 20697, 51821, 130825, 337997
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 5, 7, 7, 28, 67, 113, 281, 690, 1450, 3359, 8590, 20542, 49507, 127719, 328222
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 6, 3, 3, 36, 55, 88, 293, 622, 1275, 3321, 8111, 19719, 50176, 127767, 330678, 860375
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 6, 3, 4, 37, 53, 89, 304, 631, 1301, 3416, 8214, 19870, 50583, 127920, 329503, 856622
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 6, 4, 4, 33, 55, 95, 291, 628, 1309, 3349, 8195, 19803, 49968, 127374, 328464, 851809
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 0, 6, 5, 7, 35, 57, 107, 322, 660, 1430, 3576, 8424, 20414, 50587, 126317, 325163
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 1, 3, 3, 10, 27, 51, 105, 276, 624, 1352, 3249, 8234, 20078, 49502, 128483, 332677
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+0, 1, 3, 4, 11, 30, 51, 113, 305, 639, 1418, 3463, 8352, 20344, 50282, 127499, 328081
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 0, 4, 2, 5, 21, 42, 88, 261, 592, 1384, 3656, 8815, 21561, 55669, 140789, 357647, 925262
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 0, 4, 4, 8, 20, 48, 106, 264, 580, 1462, 3724, 8604, 21558, 55364, 137162, 348320
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 0, 5, 3, 4, 24, 36, 87, 255, 530, 1313, 3575, 8397, 20589, 54046, 136731, 347334, 903694
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 0, 5, 5, 4, 24, 52, 89, 268, 621, 1355, 3601, 8653, 20765, 53622, 135530, 342373, 886859
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 0, 6, 4, 4, 28, 40, 96, 266, 520, 1376, 3578, 8040, 20244, 52804, 131856, 336856, 878640
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 0, 6, 6, 6, 27, 52, 105, 280, 592, 1428, 3653, 8294, 20587, 52878, 130568, 331526
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 1, 4, 4, 6, 20, 40, 94, 238, 541, 1294, 3360, 8173, 19987, 51528, 131436, 334749, 866390
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFS = ZSM-57 H1.5[ Al1.5Si34.5O72 ].
+0, 2, 2, 3, 8, 16, 38, 93, 226, 536, 1300, 3288, 8030, 19994, 51284, 130110, 333128, 862656
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MON = Montesommaite (K,Na)9[ Al9Si23O64 ] . 10 H2O.
+0, 1, 5, 0, 0, 26, 18, 50, 264, 510, 1222, 3584, 8220, 19844, 52190, 130734, 332766, 870390
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MOR = Mordenite Na8[ Al8Si40O96 ] . 24 H2O.
+0, 0, 5, 4, 3, 24, 46, 86, 253, 576, 1397, 3592, 8596, 21725, 55668, 139137, 356719, 921053
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MOR = Mordenite Na8[ Al8Si40O96 ] . 24 H2O.
+0, 0, 6, 6, 5, 27, 48, 88, 242, 534, 1295, 3371, 8005, 20318, 52616, 131118, 337153, 878222
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MOR = Mordenite Na8[ Al8Si40O96 ] . 24 H2O.
+0, 1, 4, 2, 6, 26, 34, 96, 274, 562, 1494, 3780, 8740, 22468, 56646, 139246, 357097, 913238
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MOR = Mordenite Na8[ Al8Si40O96 ] . 24 H2O.
+0, 1, 4, 2, 6, 28, 30, 86, 254, 476, 1312, 3490, 7888, 20646, 53798, 132278, 341967, 891362
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTN = ZSM-39 [ Si136O272 ] . q R.
+0, 0, 5, 1, 0, 34, 37, 53, 343, 609, 1115, 4177, 9538, 20872, 62491, 158530, 382026
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTN = ZSM-39 [ Si136O272 ] . q R.
+0, 0, 6, 0, 0, 42, 33, 63, 408, 582, 1077, 4443, 9330, 20355, 63522, 155922, 372444
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTN = ZSM-39 [ Si136O272 ] . q R.
+0, 0, 6, 0, 0, 48, 36, 72, 456, 588, 1032, 4596, 9324, 19908, 64164, 155520, 366456
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[ AlnSi24-nO48 ].
+0, 0, 2, 8, 6, 16, 58, 120, 250, 672, 1616, 3754, 9534, 23898, 59600, 151961, 393164
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[ AlnSi24-nO48 ].
+0, 0, 2, 8, 6, 16, 58, 120, 252, 670, 1618, 3754, 9522, 23886, 59622, 151875, 392938
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 6, 4, 14, 56, 94, 204, 638, 1508, 3414, 9176, 23232, 57600, 148550, 388584
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 6, 4, 14, 58, 92, 210, 634, 1508, 3396, 9146, 23122, 57426, 148059, 387186, 999616
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 6, 4, 14, 60, 90, 216, 630, 1496, 3382, 9144, 22952, 57168, 147708, 386212, 997816
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 6, 4, 16, 60, 88, 228, 646, 1478, 3378, 9204, 23076, 56962, 147596, 386464, 997460
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTT = ZSM-23 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 8, 4, 20, 68, 108, 258, 704, 1586, 3600, 9474, 23534, 57098, 146818, 381946
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].
+0, 0, 2, 8, 4, 20, 50, 124, 234, 708, 1548, 3862, 9234, 24723, 57884, 151618, 379592
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].
+0, 0, 2, 8, 4, 26, 54, 126, 258, 770, 1568, 4030, 9560, 25381, 58328, 154310, 382514
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].
+0, 0, 4, 6, 4, 22, 50, 118, 186, 704, 1420, 3678, 8470, 23668, 54792, 146181, 362476
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].
+0, 0, 4, 6, 8, 22, 60, 102, 262, 694, 1564, 3552, 9430, 23423, 57108, 144774, 374118
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].
+0, 0, 4, 8, 8, 20, 66, 126, 284, 698, 1700, 3764, 9788, 24063, 58510, 145944, 376158
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].
+0, 1, 2, 6, 6, 34, 48, 104, 256, 792, 1424, 3820, 9176, 24331, 55108, 148909, 365414
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].
+0, 1, 2, 6, 8, 32, 50, 100, 258, 770, 1436, 3726, 9142, 23883, 55084, 147062, 363982
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NAT = Natrolite Na16[ Al16Si24O80 ] . 16 H2O.
+0, 4, 0, 2, 0, 12, 8, 124, 124, 568, 938, 2504, 5920, 15036, 38622, 94718, 244900, 618326
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NAT = Natrolite Na16[ Al16Si24O80 ] . 16 H2O.
+0, 4, 0, 4, 0, 16, 4, 144, 76, 608, 720, 2668, 5420, 15760, 37408, 95392, 239288, 608356
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+0, 0, 4, 4, 8, 30, 52, 103, 289, 707, 1486, 3513, 9229, 21679, 51373, 133607, 336395
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+0, 0, 4, 6, 6, 32, 72, 120, 316, 804, 1690, 3896, 10058, 23656, 54956, 140334, 351156
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+0, 0, 5, 5, 7, 32, 67, 119, 314, 783, 1647, 3784, 9819, 22798, 53086, 136574, 340934
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+0, 0, 5, 6, 9, 35, 63, 118, 305, 753, 1599, 3665, 9503, 22510, 52352, 133994, 336327
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+0, 0, 6, 6, 4, 29, 62, 96, 264, 739, 1482, 3498, 9563, 22366, 52602, 137884, 346478, 856092
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+0, 1, 4, 0, 10, 32, 42, 93, 280, 627, 1296, 3227, 8260, 18880, 46260, 121257, 301878
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+0, 1, 5, 4, 7, 28, 56, 89, 277, 719, 1443, 3469, 9359, 21650, 51596, 135156, 337846, 839063
+
+
+Cycle class sequence c(n) (number of true cycles of length n in which a certain node is included) for zeolite NON = Nonasil-[ 4158 ] [ Si88O176 ] . 4 R.
+0, 0, 3, 4, 6, 25, 48, 82, 234, 677, 1361, 3385, 9355, 22889, 56816, 151208, 391907
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NON = Nonasil-[ 4158 ] [ Si88O176 ] . 4 R.
+0, 0, 3, 6, 7, 28, 49, 100, 247, 692, 1445, 3457, 9167, 22971, 56256, 147690, 383299
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NON = Nonasil-[ 4158 ] [ Si88O176 ] . 4 R.
+0, 0, 4, 6, 2, 28, 58, 88, 238, 716, 1394, 3374, 9384, 22840, 55476, 147990, 382072, 982280
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NON = Nonasil-[ 4158 ] [ Si88O176 ] . 4 R.
+0, 0, 5, 3, 5, 28, 57, 90, 241, 684, 1391, 3368, 9387, 22377, 55330, 147531, 379551, 976967
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NON = Nonasil-[ 4158 ] [ Si88O176 ] . 4 R.
+0, 1, 4, 1, 10, 28, 48, 72, 234, 590, 1194, 3128, 8624, 20646, 53656, 142760, 368944
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RON = Roggianite Ca16[ Be8Al16Si32O104(OH)16 ] . 19 H2O.
+0, 2, 0, 2, 0, 20, 0, 98, 16, 449, 156, 2150, 1044, 10733, 7456, 55044, 51376, 285758
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RON = Roggianite Ca16[ Be8Al16Si32O104(OH)16 ] . 19 H2O.
+0, 2, 0, 4, 0, 40, 0, 150, 4, 610, 96, 2798, 864, 13218, 7192, 64934, 52332, 328222
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RON = Roggianite Ca16[ Be8Al16Si32O104(OH)16 ] . 19 H2O.
+1, 0, 0, 0, 0, 0, 0, 0, 8, 8, 70, 82, 434, 518, 2776, 3144, 16832, 19376
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RON = Roggianite Ca16[ Be8Al16Si32O104(OH)16 ] . 19 H2O.
+1, 1, 0, 0, 0, 4, 0, 42, 20, 212, 168, 1108, 1040, 6138, 6744, 33790, 43372, 183782
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RSN = RUB-17 K4Na12 [ Zn8Si28O72 ] . 18 H2O.
+0, 1, 4, 0, 0, 16, 24, 82, 242, 504, 1182, 2780, 6366, 15800, 40288, 102822, 264760, 679734
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RSN = RUB-17 K4Na12 [ Zn8Si28O72 ] . 18 H2O.
+0, 2, 0, 4, 0, 18, 18, 100, 188, 568, 1062, 2922, 6026, 16486, 38740, 105022, 257446
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RSN = RUB-17 K4Na12 [ Zn8Si28O72 ] . 18 H2O.
+1, 1, 0, 2, 0, 10, 20, 100, 206, 528, 1008, 2594, 5618, 15246, 37564, 100604, 249758
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RSN = RUB-17 K4Na12 [ Zn8Si28O72 ] . 18 H2O.
+1, 1, 1, 0, 0, 8, 24, 90, 240, 492, 1064, 2452, 5814, 14766, 38400, 98846, 252902, 644456
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RSN = RUB-17 K4Na12 [ Zn8Si28O72 ]. 18 H2O.
+2, 0, 0, 0, 0, 0, 26, 86, 228, 424, 1040, 2192, 5632, 13820, 37462, 94070, 244632, 612400
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTE = RUB-3 [ Si24O48 ] . 2 R.
+0, 1, 2, 2, 9, 19, 42, 114, 200, 541, 1245, 3156, 7749, 19302, 50037, 126450, 328007
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTE = RUB-3 [ Si24O48 ] . 2 R.
+0, 2, 1, 3, 7, 19, 36, 116, 191, 542, 1204, 3076, 7560, 18747, 48658, 123404, 319762
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTE = RUB-3 [ Si24O48 ] . 2 R.
+0, 2, 2, 4, 12, 18, 48, 120, 214, 543, 1243, 2938, 7446, 17699, 46859, 117211, 306145
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTH = RUB-13 [ B2Si30O64 ] . 2 R.
+0, 1, 2, 3, 13, 21, 48, 92, 239, 568, 1162, 2995, 7014, 17505, 44314, 111919, 291041
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTH = RUB-13 [ B2Si30O64 ] . 2 R.
+0, 2, 2, 1, 15, 19, 44, 105, 190, 479, 1136, 2631, 6503, 16479, 41246, 107230, 278800
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTH = RUB-13 [ B2Si30O64 ] . 2 R.
+0, 2, 3, 2, 21, 30, 56, 118, 231, 547, 1190, 2879, 6620, 16329, 40851, 102478, 265648
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTH = RUB-13 [ B2Si30O64 ] . 2 R.
+0, 2, 3, 3, 21, 30, 59, 110, 242, 572, 1153, 2849, 6533, 15911, 40206, 101346, 262483
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RUT = RUB-10 R4 [ B4Si32O72 ].
+0, 0, 2, 4, 4, 16, 32, 81, 214, 506, 1376, 3393, 8274, 22246, 55106, 142366, 370288, 946740
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RUT = RUB-10 R4 [ B4Si32O72 ].
+0, 1, 2, 4, 8, 18, 40, 98, 220, 533, 1374, 3123, 7891, 20758, 51623, 134426, 350099, 896154
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RUT = RUB-10 R4 [ B4Si32O72 ].
+0, 1, 3, 1, 12, 19, 41, 100, 224, 556, 1358, 3161, 7942, 20425, 51169, 132552, 344237
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RUT = RUB-10 R4 [ B4Si32O72 ].
+0, 2, 2, 2, 11, 14, 40, 95, 219, 533, 1345, 3069, 7761, 20001, 49779, 130008, 334948
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RUT = RUB-10 R4 [ B4Si32O72 ].
+0, 2, 2, 3, 9, 15, 34, 94, 209, 504, 1306, 3073, 7654, 20149, 50226, 130772, 338518, 867558
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite SGT = Sigma-2 [ Si64O128 ] . 4 R.
+0, 0, 3, 3, 6, 24, 44, 77, 235, 620, 1321, 3238, 8791, 21178, 52662, 140814, 362458, 927614
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite SGT = Sigma-2 [ Si64O128 ] . 4 R.
+0, 1, 4, 1, 12, 30, 54, 102, 228, 618, 1312, 3096, 8292, 19498, 48300, 129176, 329812
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite SGT = Sigma-2 [ Si64O128 ] . 4 R.
+0, 1, 4, 1, 12, 32, 52, 100, 242, 622, 1318, 3188, 8382, 19662, 49006, 130188, 331642
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite SGT = Sigma-2 [ Si64O128 ] . 4 R.
+0, 1, 4, 1, 12, 34, 48, 96, 252, 606, 1288, 3134, 8270, 19542, 48694, 129742, 332080
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite STI = Stilbite Na4Ca8[ Al20Si52O144 ] . 56 H2O.
+0, 0, 4, 2, 12, 12, 64, 72, 220, 456, 1244, 2830, 7188, 17856, 45804, 113488, 295004
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite STI = Stilbite Na4Ca8[ Al20Si52O144 ] . 56 H2O.
+0, 1, 2, 8, 8, 17, 36, 92, 150, 450, 994, 2538, 6376, 16262, 41688, 106612, 276186, 715846
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite STI = Stilbite Na4Ca8[ Al20Si52O144 ] . 56 H2O.
+0, 2, 2, 10, 9, 16, 58, 98, 196, 445, 1107, 2566, 6245, 15883, 40199, 101196, 262535
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite STI = Stilbite Na4Ca8[ Al20Si52O144 ] . 56 H2O.
+0, 3, 2, 10, 10, 19, 50, 86, 184, 436, 980, 2500, 5890, 15348, 37898, 96636, 249382, 637710
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite TON = Theta-1 Nan[ AlnSi24-nO48 ].
+0, 0, 2, 8, 6, 16, 58, 120, 254, 668, 1616, 3750, 9540, 23832, 59628, 151807, 392948
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite TON = Theta-1 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 6, 4, 14, 58, 92, 210, 634, 1502, 3394, 9168, 23090, 57376, 148201, 387626, 999878
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite TON = Theta-1 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 6, 4, 16, 60, 88, 224, 650, 1480, 3372, 9208, 23126, 56988, 147778, 387084, 998552
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite TON = Theta-1 Nan[ AlnSi24-nO48 ].
+0, 0, 4, 8, 4, 20, 68, 108, 256, 706, 1592, 3592, 9476, 23558, 57164, 146824, 382308
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite VET = VPI-8 [ Si17O34 ].
+0, 0, 3, 5, 5, 27, 46, 95, 284, 696, 1475, 3944, 10194, 24962, 62913, 162871, 415963
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite VET = VPI-8 [ Si17O34 ].
+0, 0, 3, 6, 7, 21, 44, 107, 274, 655, 1484, 3919, 10003, 24765, 62528, 161536, 413954
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite VET = VPI-8 [ Si17O34 ].
+0, 0, 4, 0, 8, 36, 48, 96, 376, 800, 1696, 4620, 11624, 27220, 69080, 173692, 433704
+
+
+Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite VET = VPI-8 [ Si17O34 ].
+0, 0, 4, 4, 7, 30, 50, 106, 320, 734, 1606, 4238, 10735, 25992, 65243, 166303, 420964
+
+
