@@ -10,11 +10,10 @@ import os
 import time
 from urllib import parse
 
-requests.adapters.DEFAULT_RETRIES = 5 # 增加重连次数
-s = requests.session()
-s.keep_alive = False # 关闭多余连接
-
 class Proxy:
+    requests.adapters.DEFAULT_RETRIES = 5 # 增加重连次数
+    s = requests.session()
+    s.keep_alive = False # 关闭多余连接
     allProxy = [] #保存获取的代理，去重
     allUrl = [] #保存爬取过的网页，去重
     httpsProxy = [] #保存代理,此代理为以前获取过的代理，用来爬取免费代理
@@ -381,10 +380,3 @@ class Proxy:
         f = open("log", "a+")
         f.write( "%-30s%s\n" % (nowtime,logMessage) )
         f.close()
-
-if __name__ == "__main__":
-    # 运行下面两行代码初始化
-    # proxy = Proxy(True)
-    # proxy.setProxy()
-
-    print("Hello! You can use me to get free proxies!")
