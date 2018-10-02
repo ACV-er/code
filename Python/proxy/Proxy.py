@@ -23,6 +23,7 @@ class Proxy:
     proxyInfo = manager.dict({}) #保存每个网站的代理的大概信息
     lock = Lock()
     fileLock = Lock()
+    p = [] #存储进程
 
     def __init__(self, updateProxy = True):
         #初始化代理
@@ -59,6 +60,10 @@ class Proxy:
                 freeProxyUrl = freeProxyUrl[:-1]
                 self.getPageProxy( freeProxyUrl )
             f.close()
+            print("等待代理验证完成")
+            for i in self.p:
+                i.join()
+            print("代理验证完成")
         #写log,方便查看每个站点的代理质量
             f = open("log", "a+")
             print("信息写入log")
@@ -81,7 +86,7 @@ class Proxy:
         proxyInfo  保存每个网站的代理的大概信息
     '''
 
-    def proxyCheck(self, proxys=[], level = "accept", isSave=True, number=-1, url="", lock=Lock(), fileLock=Lock(),proxyInfo = {}):
+    def proxyCheck(self, proxys=[], level = "accept", isSave=True, url="", lock=Lock(), fileLock=Lock(),proxyInfo = {}):
         #代理等级过滤，响应时间为判定依据
         levels = {
             "accept" : 5,
@@ -100,7 +105,7 @@ class Proxy:
         error  = 0
         head = {
             'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
-            'Referer': "https://www.baidu.com",
+            'Referer': "http://www.baidu.com",
             'Connection': 'close' #不需要保持链接
         }
         #测试代理是否可用
@@ -142,21 +147,17 @@ class Proxy:
             lock.release()
         if( isSave ):
             self.saveProxy(acceptProxys, level)
-        elif number != -1:
+        else :
             with fileLock:
                 self.saveProxy(acceptProxys, level)
-        else:
-            pass
 
     #传入页面url，自动获取页面内的代理
     def getPageProxy(self, freeProxyUrl):
         pages = 0
         isContinue = True #进去的时候默认进行爬取
         MAX = 5 #设置每个进程处理的代理的个数，越小越快，但是进程会越多
-        p = [] #存储进程
-        num = 0 #标记进程
 
-        while isContinue and pages<50:
+        while isContinue and pages<80:
             pages += 1
             isContinue = False #返会False代表该页面没有新的代理，和以前获取的东西完全重复
             self.allUrl.append(freeProxyUrl) #该网站已被获取，保存
@@ -188,6 +189,7 @@ class Proxy:
             try:
                 result = r.text
                 print("获取网页信息完毕")
+                r.close()
             except:
                 print("获取网页信息失败")
                 self.log( "Message:%s访问失败" % freeProxyUrl )
@@ -214,15 +216,12 @@ class Proxy:
 
             while begin != end:
                 if end-begin > MAX:
-                    p.append( Process(target=self.proxyCheck, args=(proxys[begin:begin+MAX], "accept", False, num, host, self.lock, self.fileLock,self.proxyInfo) ) )
+                    self.p.append( Process(target=self.proxyCheck, args=(proxys[begin:begin+MAX], "accept", False, host, self.lock, self.fileLock,self.proxyInfo) ) )
                     begin += MAX
                 else:
-                    p.append( Process(target=self.proxyCheck, args=(proxys[begin:end], "accept", False, num, host, self.lock, self.fileLock, self.proxyInfo) ) )
+                    self.p.append( Process(target=self.proxyCheck, args=(proxys[begin:end], "accept", False, host, self.lock, self.fileLock, self.proxyInfo) ) )
                     begin = end
-                p[num].start()
-
-                num += 1
-
+                self.p[-1].start()
             proxys.clear()
                 
             #此处获取下一页
@@ -249,10 +248,6 @@ class Proxy:
             except:
                 isContinue = False #如果提取不到下一页则不继续
             print("分析完毕")
-        print("等待代理验证完成")
-        for i in range(0, num):
-            p[i].join()
-        print("代理验证完成")
 
     def getNextPage(self, url = "", params = ""):
         if( params.find(url[:-8]) != -1 ): #判断params是链接还是参数或者路径
@@ -316,7 +311,7 @@ class Proxy:
             result = manger.list()
             lock = Lock()
             p = []
-            num = begin = 0
+            begin = 0
             end = len(proxies)
             while begin != end:
                 if end-begin > 5:
@@ -325,12 +320,12 @@ class Proxy:
                 else:
                     p.append( Process(target=self.__simpleCheck, args=(proxies[begin:end], lock, result) ) )
                     begin = end
-                p[num].start()
-                num += 1
+                p[-1].start()
             for i in p:
                 i.join()
+            
             f = open("cache/proxy", "wb+")
-            pickle.dump(result, f)
+            pickle.dump( list(result), f)
             f.close()
             print("初始化完毕")
             f = open("cache/proxyUpdataTime", "wb+")
@@ -349,6 +344,9 @@ class Proxy:
     def getFast(self, mode = "fast"):
         try:
             os.remove("result/"+mode)
+        except:
+            pass
+        try:
             MAX = 5
             f = open("result/accept", "r")
             proxys = []
@@ -358,24 +356,22 @@ class Proxy:
             f.close()
 
             #从getProxy中复制过来的
-            num = 0
             p = []
             begin = 0
             end = len(proxys)
             while begin != end:
                 if end-begin > MAX:
-                    p.append( Process(target=self.proxyCheck, args=(proxys[begin:begin+MAX], mode, False, num, "", self.lock, self.fileLock) ) )
+                    p.append( Process(target=self.proxyCheck, args=(proxys[begin:begin+MAX], mode, False, "", self.lock, self.fileLock) ) )
                     begin += MAX
                 else:
-                    p.append( Process(target=self.proxyCheck, args=(proxys[begin:end], mode, False, num, "", self.lock, self.fileLock) ) )
+                    p.append( Process(target=self.proxyCheck, args=(proxys[begin:end], mode, False, "", self.lock, self.fileLock) ) )
                     begin = end
-                p[num].start()
+                p[-1].start()
 
-                num += 1
             proxys.clear()
             print("等待代理验证完成")
-            for i in range(0, num):
-                p[i].join()
+            for i in p:
+                i.join()
             print("代理验证完成")
         except:
             pass
@@ -387,5 +383,8 @@ class Proxy:
         f.close()
 
 if __name__ == "__main__":
-    proxy = Proxy(True)
-    proxy.setProxy()
+    # 运行下面两行代码初始化
+    # proxy = Proxy(True)
+    # proxy.setProxy()
+
+    print("Hello! You can use me to get free proxies!")
