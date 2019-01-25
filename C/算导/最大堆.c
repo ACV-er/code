@@ -38,13 +38,14 @@ int* rand_array(int len)
 // 维护最大堆
 void max_heap_keep(pHeap heap, int pos)
 {
-    int left = pos * 2,
-        right = pos * 2 + 1,
+    int left = pos * 2 + 1,
+        right = pos * 2 + 2,
         largest = pos;
-    if (left <= heap->lenth && heap->data[pos] < heap->data[left]) {
+    // printf("%d %d %d\n", pos, left, right);
+    if (left <= heap->lenth - 1 && heap->data[pos] < heap->data[left]) {
         largest = left;
     }
-    if (right <= heap->lenth && heap->data[largest] < heap->data[right]) {
+    if (right <= heap->lenth - 1 && heap->data[largest] < heap->data[right]) {
         largest = right;
     }
     if (largest != pos) {
@@ -57,15 +58,16 @@ void max_heap_keep(pHeap heap, int pos)
     return;
 }
 
+
+// 建立最大堆
 void build_max_heap(pHeap heap)
 {
-    int i = heap->lenth / 2 + 1;
+    int i = heap->lenth / 2;
     while (i--) {
         max_heap_keep(heap, i);
     }
 }
 
-// 建立最大堆
 
 int main(void)
 {
@@ -81,7 +83,6 @@ int main(void)
     }
 
     build_max_heap(&heap);
-
     for (int i = 0; i < 10; i++) {
         printf("%d ", heap.data[i]);
     }
