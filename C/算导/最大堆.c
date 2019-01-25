@@ -42,10 +42,10 @@ void max_heap_keep(pHeap heap, int pos)
         right = pos * 2 + 2,
         largest = pos;
     // printf("%d %d %d\n", pos, left, right);
-    if (left <= heap->lenth - 1 && heap->data[pos] < heap->data[left]) {
+    if (left < heap->lenth && heap->data[pos] < heap->data[left]) {
         largest = left;
     }
-    if (right <= heap->lenth - 1 && heap->data[largest] < heap->data[right]) {
+    if (right < heap->lenth && heap->data[largest] < heap->data[right]) {
         largest = right;
     }
     if (largest != pos) {
@@ -72,18 +72,18 @@ void build_max_heap(pHeap heap)
 int main(void)
 {
     srand((unsigned)time(NULL));
-    int* a = rand_array(10); //生成随机数组
+    int* a = rand_array(17); //生成随机数组
     Heap heap;
-    heap.lenth = 10;
+    heap.lenth = 17;
     heap.data = (int*)malloc(sizeof(int*) * heap.lenth);
 
     //测试
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 17; i++) {
         heap.data[i] = a[i];
     }
 
     build_max_heap(&heap);
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 17; i++) {
         printf("%d ", heap.data[i]);
     }
     printf("\n");
