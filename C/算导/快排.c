@@ -54,8 +54,10 @@ void swap(int* a, int* b)
 void quick_sort(int* a, int len)
 {
     int tmp = a[0], i = 0, x = 1;
-    if (len < 2)
+    if (len < 2) {
         return;
+    }
+
     while (i < len) {
         if (a[i] < tmp) {
             while (a[x] <= tmp && x < len)
@@ -69,6 +71,7 @@ void quick_sort(int* a, int len)
         }
         i++;
     }
+    
     swap(a, a + x - 1);
     quick_sort(a, x - 1);
     quick_sort(a + x, len - x);
