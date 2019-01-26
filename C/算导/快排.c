@@ -50,17 +50,22 @@ void swap(int* a, int* b)
 //     return;
 // }
 
-
 // 快排2
 void quick_sort(int* a, int len)
 {
     int tmp = a[0], i = 0, x = 1;
     if (len < 2)
         return;
-    while(i < len) {
-        if( a[i] < tmp ) {
-            swap(a+x, a+i);
-            x++;
+    while (i < len) {
+        if (a[i] < tmp) {
+            while (a[x] <= tmp && x < len)
+                x++;
+            if (i > x) {
+                swap(a + x, a + i);
+                x++;
+            } else {
+                i = x;
+            }
         }
         i++;
     }
