@@ -57,7 +57,6 @@ void quick_sort(int* a, int len)
     if (len < 2) {
         return;
     }
-
     while (i < len) {
         if (a[i] < tmp) {
             while (a[x] <= tmp && x < len)
@@ -71,7 +70,7 @@ void quick_sort(int* a, int len)
         }
         i++;
     }
-    
+
     swap(a, a + x - 1);
     quick_sort(a, x - 1);
     quick_sort(a + x, len - x);
