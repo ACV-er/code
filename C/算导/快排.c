@@ -29,22 +29,44 @@ void swap(int* a, int* b)
     *b = t;
 }
 
+// 快排1
+// void quick_sort(int* a, int len)
+// {
+//     int tmp = a[0], left = 0, right = len - 1;
+//     if (len < 2)
+//         return;
+//     while (left < right) {
+//         while (left < right && a[right] > tmp)
+//             right--;
+//         while (left < right && a[left] <= tmp)
+//             left++;
+//         swap((a + left), (a + right));
+//     }
+//     swap(a, a + left);
+//     quick_sort(a, left);
+//     left++;
+//     quick_sort(a + left, len - left);
+
+//     return;
+// }
+
+
+// 快排2
 void quick_sort(int* a, int len)
 {
-    int tmp = a[0], left = 0, right = len - 1;
+    int tmp = a[0], i = 0, x = 1;
     if (len < 2)
         return;
-    while (left < right) {
-        while (left < right && a[right] > tmp)
-            right--;
-        while (left < right && a[left] <= tmp)
-            left++;
-        swap((a + left), (a + right));
+    while(i < len) {
+        if( a[i] < tmp ) {
+            swap(a+x, a+i);
+            x++;
+        }
+        i++;
     }
-    swap(a, a + left);
-    quick_sort(a, left);
-    left++;
-    quick_sort(a + left, len - left);
+    swap(a, a + x - 1);
+    quick_sort(a, x - 1);
+    quick_sort(a + x, len - x);
 
     return;
 }
