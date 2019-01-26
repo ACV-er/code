@@ -58,7 +58,6 @@ void max_heap_keep(pHeap heap, int pos)
     return;
 }
 
-
 // 建立最大堆
 void build_max_heap(pHeap heap)
 {
@@ -68,6 +67,16 @@ void build_max_heap(pHeap heap)
     }
 }
 
+//取出最大数
+int get_max(pHeap heap)
+{
+    int max = heap->data[0];
+    heap->data[0] = heap->data[heap->lenth - 1];
+    (heap->lenth)--;
+    max_heap_keep(heap, 0);
+
+    return max;
+}
 
 int main(void)
 {
@@ -84,7 +93,8 @@ int main(void)
 
     build_max_heap(&heap);
     for (int i = 0; i < 17; i++) {
-        printf("%d ", heap.data[i]);
+        // printf("%d ", heap.data[i]);
+        printf("%d ", get_max(&heap));
     }
     printf("\n");
 
