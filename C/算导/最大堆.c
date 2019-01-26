@@ -1,9 +1,11 @@
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 typedef struct heap {
     int lenth;
+    int capacity;
     int* data;
 } Heap, *pHeap;
 
@@ -78,22 +80,48 @@ int get_max(pHeap heap)
     return max;
 }
 
+//插入元素
+bool insert(pHeap heap, int data)
+{
+    if (heap->lenth == heap->capacity) {
+        heap->data = (int*)realloc(heap->data, heap->capacity * 2 * sizeof(int*));
+        if (heap->data == NULL) {
+            printf("内存不足");
+            return false;
+        }
+    }
+
+    int pos = heap->lenth;
+    (heap->lenth)++;
+    heap->data[pos] = data;
+    int farther = (pos - 1) / 2;
+
+    while (farther > -1 && heap->data[pos] > heap->data[farther]) {
+        int t = heap->data[pos];
+        heap->data[pos] = heap->data[farther];
+        pos = farther;
+        heap->data[pos] = t;
+    }
+
+    return true;
+}
+
 int main(void)
 {
     srand((unsigned)time(NULL));
     int* a = rand_array(17); //生成随机数组
     Heap heap;
-    heap.lenth = 17;
+    heap.capacity = heap.lenth = 17;
     heap.data = (int*)malloc(sizeof(int*) * heap.lenth);
 
     //测试
     for (int i = 0; i < 17; i++) {
         heap.data[i] = a[i];
     }
+    insert(&heap, 17);
 
     build_max_heap(&heap);
     for (int i = 0; i < 17; i++) {
-        // printf("%d ", heap.data[i]);
         printf("%d ", get_max(&heap));
     }
     printf("\n");
