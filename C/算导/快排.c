@@ -71,7 +71,7 @@ void quick_sort(int* a, int len)
         }
         i++;
     }
-
+    
     swap(a, a + x - 1);
     quick_sort(a, x - 1);
     quick_sort(a + x, len - x);
