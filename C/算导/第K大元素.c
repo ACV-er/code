@@ -31,15 +31,18 @@ void swap(int* a, int* b)
 
 int rand_select(int* a, int p, int r)
 {
-    int x = p + 1, left = p, right = r;
-    for (; left < right; left++) {
+    int x = p + 1, left = p;
+    for (; left <= r; left++) {
         if (a[left] < a[p]) {
-            while(a[x] <= a[p] && x < r) {
-                x++;
+            if (left != x) {
+                swap(a + x, a + left);
             }
-            if(  )
+            x++;
         }
     }
+    swap(a + p, a + x - 1);
+
+    return x - 1; //返回的是下标
 }
 
 // 选择 a 数组中 p， r 之间 第 k 大的元素 (p, r 为数组下标，闭区间)
@@ -49,12 +52,17 @@ int select(int* a, int p, int r, int k)
         return a[p];
     }
     int q = rand_select(a, p, r);
-    if (q == k) {
+    // printf("%d ** ", q);
+    // for (int i = 0; i < 10; i++) {
+    //     printf("%d ", a[i]);
+    // }
+    // printf("\n");
+    if (q == k - 1) {
         return a[q];
-    } else if (q > k) {
-        return select(int* a, int p, int q - 1, int k)
+    } else if (q > k - 1) {
+        return select(a, p, q - 1, k);
     } else {
-        return select(int* a, int q + 1, int r, int k - q)
+        return select(a, q + 1, r, k);
     }
 }
 
@@ -62,6 +70,8 @@ int main(void)
 {
     srand((unsigned)time(NULL));
     int* a = rand_array(10);
+
+    printf("%d\n", select(a, 0, 9, 5));
 
     return 0;
 }
