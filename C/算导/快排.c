@@ -60,14 +60,10 @@ void quick_sort(int* a, int len)
 
     while (i < len) {
         if (a[i] < tmp) {
-            while (a[x] <= tmp && x < len)
-                x++;
-            if (i > x) {
+            if (i != x) {
                 swap(a + x, a + i);
-                x++;
-            } else {
-                i = x;
             }
+            x++;
         }
         i++;
     }
