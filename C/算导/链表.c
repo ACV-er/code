@@ -50,6 +50,7 @@ void traversal(pNode head)
     pNode st = head;
     while (st->next != NULL) {
         printf("%d ", st->next->data);
+        st = st->next;
     }
     printf("\n");
 }
@@ -63,6 +64,9 @@ int main(void)
     }
     traversal(head);
     delete (head, 4);
+    traversal(head);
+
+    delete (head, 3);
     traversal(head);
 
     return 0;
