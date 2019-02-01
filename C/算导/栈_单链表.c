@@ -1,3 +1,7 @@
+/**
+ * 没有进行优化，push pop 都释放和生成了节点 可以存一个长度，在不够的时候延长，在未达到时无需新增任何节点，只需要移动tail
+ * 
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include "LIST.c"
