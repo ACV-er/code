@@ -5,58 +5,72 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node {
+typedef struct List {
     int data;
-    struct node* next;
-} Node, *pNode;
+    struct List* next;
+} List, *pList;
 
-pNode createList()
+pList createList()
 {
-    pNode head = (pNode)malloc(sizeof(Node));
+    pList head = (pList)malloc(sizeof(List));
     head->next = NULL;
 
     return head;
 }
 
-pNode createNode(int data)
+pList createNode(int data)
 {
-    pNode node = (pNode)malloc(sizeof(Node));
-    node->next = NULL;
-    node->data = data;
+    pList List = (pList)malloc(sizeof(List));
+    List->next = NULL;
+    List->data = data;
 
-    return node;
+    return List;
 }
 
-void insert(pNode head, int data)
+void insert(pList head, int data)
 {
-    pNode st = head;
+    pList st = head;
     while (st->next != NULL) {
         st = st->next;
     }
     st->next = createNode(data);
 }
 
-void delete (pNode head, int data)
+void delete (pList head, int data)
 {
-    pNode st = head;
+    pList st = head;
     while (st->next != NULL && st->next->data != data) {
         st = st->next;
     }
     if (st->next != NULL) {
-        pNode tmp = st->next;
+        pList tmp = st->next;
         st->next = st->next->next;
         free(tmp);
     }
 }
 
-void traversal(pNode head)
+void traversal(pList head)
 {
-    pNode st = head;
+    pList st = head;
     while (st->next != NULL) {
         printf("%d ", st->next->data);
         st = st->next;
     }
     printf("\n");
+}
+
+pList find_parent(pList head, pList pos)
+{
+    pList st = head;
+    while (st != NULL) {
+        if (st->next == pos) {
+            return st;
+        } else {
+            st = st->next;
+        }
+    }
+
+    return st;
 }
 
 #endif
