@@ -19,11 +19,19 @@ struct WithFartherData{
     pAvlNode self;
 };
 
+int h(pAvlNode node) {
+    if(node == NULL) {
+        return 1;
+    } else {
+        return Max(h(node->left), h(node->right)) + 1;
+    }
+}
+
 void inorder_traversal(pAvlNode root) { //中序遍历
     if( root == NULL) return;
     inorder_traversal(root->left);
     printf("%d ", root->data);
-    if( ( Height( root->left ) - Height( root->right ) > 1 ) || ( Height( root->right ) - Height( root->left ) > 1 ) ) {
+    if( ( h( root->left ) - h( root->right ) > 1 ) || ( h( root->right ) - h( root->left ) > 1 ) ) {
         printf("error");
     }
     inorder_traversal(root->right);

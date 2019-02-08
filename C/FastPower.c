@@ -13,18 +13,18 @@ int main(void) {
 		m--;
 	}
 	time2 = clock();
-	printf("普通算法在%f内求出%d\n", time2-time1, c);
+	printf("?????%f???%d\n", time2-time1, c);
 	n=a; m=b; c=1;
 	while(m>0) {
 		if(m&1) {
-			c = c*n%10007;//如果乘数个数为单数则消去改乘数 
+			c = c*n%10007;//??????????????? 
 		}
 		m >>= 1;
-		n = n*n%10007;//每次使乘数个数减少一半，乘数自平方
+		n = n*n%10007;//?????????????????
 	}
 	time1 = clock();
-	printf("快速幂算法在%f内求出%d\n", time1-time2, c);
+	printf("??????%f???%d\n", time1-time2, c);
 	
 	
 	return 0;
-} 
+}
