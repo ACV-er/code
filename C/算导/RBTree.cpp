@@ -22,7 +22,8 @@ void RBInsertFixup(pRBTree T, pRBNode node);
 pRBTree createRBTree(void)
 {
     pRBTree T = (pRBTree)malloc(sizeof(RBTree));
-    T->nil = createRBNode(NULL, NULL, NULL, 0, 'b');
+    pRBNode tmp = createRBNode(NULL, NULL, NULL, 0, 'n');
+    T->nil = createRBNode(tmp, tmp, tmp, 0, 'b');
     T->root = T->nil;
     return T;
 }
@@ -55,12 +56,14 @@ void insert(pRBTree T, int data)
     if (node == T->nil) {
         T->root = createRBNode(T->nil, T->nil, T->nil, data, 'b');
     } else if (data > node->data) {
-        node->right = createRBNode(node, T->nil, T->nil, data, 'r');
+        root = node->right = createRBNode(node, T->nil, T->nil, data, 'r');
     } else {
-        node->left = createRBNode(node, T->nil, T->nil, data, 'r');
+        root = node->left = createRBNode(node, T->nil, T->nil, data, 'r');
     }
 
-    RBInsertFixup(T, root);
+    if(node != T->root){
+        RBInsertFixup(T, root);
+    }
 }
 
 void showTree(pRBNode root)
@@ -68,8 +71,8 @@ void showTree(pRBNode root)
     if (root->left != NULL) {
         showTree(root->left);
     }
-    if(root->parent != NULL) {
-        printf("%d ", root->data);
+    if(root->data != 0) {
+        printf("%d(%d %c) ", root->data, root->parent->data, root->color);
     }
     if (root->right != NULL) {
         showTree(root->right);
@@ -144,20 +147,55 @@ void rightRotate(pRBTree T, pRBNode node)
 
 void RBInsertFixup(pRBTree T, pRBNode node)
 {
-    
+    if(node == T->root) {
+        return;
+    }
+    while(node->parent->color == 'r') {
+        if(node->parent == node->parent->parent->left) {  //父节点为左节点
+            pRBNode uncle = node->parent->parent->right;
+            if(uncle->color == 'r') {                       //情况1叔节点为红 则把父节点的父节点涂红 父节点与叔节点涂黑，
+                node->parent->color = 'b';                 //此时只有可能祖父节点与父节点同时为红，所以转而处理这个问题
+                node->parent->parent->color = 'r';
+                uncle->color = 'b';
+                node = node->parent->parent;
+            } else {       //情况二又有两种情况，需要node为父节点的左节点(与父节点相同)
+                if(node == node->parent->right) {//此时为转化为node为父节点的子节点且父节点与子节点同为红
+                    node = node->parent;                       
+                    leftRotate(T, node);
+                }
+                node->parent->color = 'b';
+                node->parent->parent->color = 'r';
+                rightRotate(T, node->parent->parent);
+            }
+        } else { //和上面对称
+            pRBNode uncle = node->parent->parent->left;
+            if(uncle->color == 'r') {
+                node->parent->color = 'b';
+                node->parent->parent->color = 'r';
+                uncle->color = 'b';
+                node = node->parent->parent;
+            } else {
+                if(node == node->parent->left) {
+                    node = node->parent;                       
+                    rightRotate(T, node);
+                }
+                node->parent->color = 'b';
+                node->parent->parent->color = 'r';
+                leftRotate(T, node->parent->parent);
+            }
+        }
+    }
+    T->root->color = 'b';
     return;
 }
 
 int main(void)
 {
     pRBTree T = createRBTree();
-    int a[8] = { 10, -5, 99, 85, 10, 35, 68, 10 };
+    int a[8] = { 10, -5, 99, 85, 12, 35, 68, 11 };
     for (int i = 0; i < 8; i++) {
         insert(T, a[i]);
     }
-    showRBTree(T);
-    leftRotate(T, T->root);
-    rightRotate(T, T->root->left);
     showRBTree(T);
 
     return 0;
