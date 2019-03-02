@@ -189,6 +189,59 @@ void RBInsertFixup(pRBTree T, pRBNode node)
     return;
 }
 
+void RBTransplant(pRBTree T, pRBNode x, pRBNode y) { //x为y的父节点，此为删除x节点的辅助函数
+    if(x == T->root) {
+        T->root = y;
+    } else if(x->parent->right == x){
+        x->parent->right = y;
+    } else {
+        x->parent->left = y;
+    }
+    y->parent = x->parent;
+
+    free(x);
+}
+
+pRBNode minNode(pRBTree T, pRBNode x) {
+    while(x->left != T->nil) {
+        x = x->left;
+    }
+
+    return x;
+}
+
+void RBDeletetFixup(pRBTree T, pRBNode node) {
+    while(node != T->root && node->color == 'b') {
+        ;
+    }
+
+    node->color = 'b';
+}
+
+void RBDelete(pRBTree T, pRBNode x) {
+    pRBNode z = NULL;
+    char color = x->color;
+    if(x->left == T->nil) {
+        z = x->right;
+        RBTransplant(T, x, x->right);
+    } else if(x->right == T->nil) {
+        z = x->left;
+        RBTransplant(T, x, x->left);
+    } else {
+        pRBNode y = minNode(T, x->right);
+        x->data = y->data;
+        color = y->color;
+        z = y->right;
+        RBTransplant(T, y, y->right);
+    }
+
+    if(color == 'b') {
+        //未完
+    }
+
+    return;
+}
+
 int main(void)
 {
     pRBTree T = createRBTree();
